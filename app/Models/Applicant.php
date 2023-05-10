@@ -1,0 +1,76 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Applicant extends Model
+{
+    //use HasFactory;
+    protected $fillable = ['StudyLevel',
+    'CourseStartYear',
+    'CourseStartMonth',
+    'Course',
+    'title',
+    'forename1',
+    'forename2',
+    'familyname',
+    'previousname',
+    'dateofbirth',
+    'gender',
+    'ethinicorigin',
+    'nationality',
+    'countryofbirth',
+    'countryofdomicile',           
+    'addressline1',
+    'addressline2',
+    'addressline3',
+    'townorcity',
+    'districtorprovince',
+    'postcode',
+    'country',
+    'email',
+    'telephonenumber',
+    'disabilities',
+    'educationhistory',
+    'qualifications',
+    'workexperience',
+    'feesandreferences',
+    'additionalinformation',    
+    'applicant_id',
+    'status'];
+    public $sortable = ['StudyLevel',
+    'CourseStartYear',
+    'CourseStartMonth',
+    'Course',
+	'title',
+    'forename1',
+    'forename2',
+    'familyname',
+    'previousname',
+    'dateofbirth',
+    'gender',
+    'ethinicorigin',
+    'nationality',
+    'countryofbirth',
+    'countryofdomicile',           
+    'addressline1',
+    'addressline2',
+    'addressline3',
+    'townorcity',
+    'districtorprovince',
+    'postcode',
+    'country',
+    'email',
+    'telephonenumber',
+    'disabilities',
+    'educationhistory',
+    'qualifications',
+    'workexperience',
+    'feesandreferences',
+    'additionalinformation',    
+    'applicant_id', 
+    'status'
+    ];
+}
